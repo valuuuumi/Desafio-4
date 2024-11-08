@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía para Desplegar API REST en Render</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Guía para Desplegar API REST en Render</h1>
+
+    <div class="steps">
+      <div class="step" id="step1">
+        <h2>Paso 1: Crear una cuenta en Render</h2>
+        <p>Registrarse en Render mediante su página web y seguir el proceso de creación de una cuenta.</p>
+      </div>
+
+      <div class="step" id="step2">
+        <h2>Paso 2: Preparar el proyecto para el despliegue</h2>
+        <ul>
+          <li>Asegurarse de que el proyecto esté correctamente configurado y funcione localmente.</li>
+          <li>Verificar que todas las dependencias estén listadas en el archivo <code>package.json</code> y que se incluyan en el repositorio.</li>
+        </ul>
+      </div>
+
+      <div class="step" id="step3">
+        <h2>Paso 3: Configurar el despliegue en Render</h2>
+        <ul>
+          <li>Acceder al panel de Render y crear un nuevo servicio.</li>
+          <li>Seleccionar las opciones adecuadas para el tipo de servicio que se está desplegando.</li>
+          <li>Configurar las variables de entorno necesarias.</li>
+        </ul>
+      </div>
+
+      <div class="step" id="step4">
+        <h2>Paso 4: Desplegar el proyecto en Render</h2>
+        <ul>
+          <li>Conectar el servicio de Render con el repositorio de GitHub o GitLab donde se encuentra el proyecto.</li>
+          <li>Configurar la rama y la configuración de despliegue automático si es necesario.</li>
+          <li>Iniciar el despliegue del proyecto en Render y verificar que se complete correctamente.</li>
+        </ul>
+      </div>
+
+      <div class="step" id="step5">
+        <h2>Paso 5: Verificar la API REST desplegada</h2>
+        <p>Una vez que el despliegue se haya completado, acceder a la URL proporcionada por Render para verificar que la API REST esté accesible y funcionando correctamente en el entorno de producción.</p>
+      </div>
+
+      <div class="step" id="bonus">
+        <h2>Bonus Extra</h2>
+        <ul>
+          <li>Realizar pruebas adicionales en la API REST desplegada.</li>
+          <li>Documentar cualquier problema encontrado durante el proceso de despliegue y cómo se resolvieron.</li>
+          <li>Tomar capturas de pantalla o grabar un video del proceso de despliegue y compartirlo como evidencia adicional.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="navigation">
+      <button id="prevButton">Anterior</button>
+      <button id="nextButton">Siguiente</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
